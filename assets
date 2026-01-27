@@ -1,0 +1,21 @@
+assets/
+│
+├─ icons/        ← الأيقونات (أسود)
+│   ├─ home.svg
+│   ├─ games.svg
+│   ├─ live.svg
+│   ├─ profile.svg
+│   ├─ shop.svg
+│
+├─ images/       ← صور عامة
+│   ├─ logo.png
+│   ├─ banner.png
+│
+├─ ui/           ← عناصر الواجهة
+│   ├─ button_bg.png
+│   ├─ card_bg.png
+│
+├─ colors/       ← إعدادات الألوان
+│   └─ colors.json
+│
+└─ README.md     ← شرح assets
