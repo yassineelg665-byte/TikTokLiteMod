@@ -1,0 +1,129 @@
+{
+  "theme_system": {
+    "default_theme": "light",
+
+    "editable_by_user": [
+      "colors",
+      "font",
+      "font_size",
+      "dark_mode",
+      "icons_style",
+      "background_style"
+    ]
+  },
+
+  "themes": {
+    "light": {
+      "name": "الوضع الفاتح",
+      "colors": {
+        "background": "#FFFFFF",
+        "text": "#000000",
+        "primary": "#000000",
+        "secondary": "#F2F2F2",
+        "accent": "#FF0050"
+      },
+      "font": {
+        "family": "default",
+        "size": "medium"
+      },
+      "icons": "outline",
+      "background_style": "clean"
+    },
+
+    "dark": {
+      "name": "الوضع الداكن",
+      "colors": {
+        "background": "#000000",
+        "text": "#FFFFFF",
+        "primary": "#FFFFFF",
+        "secondary": "#1A1A1A",
+        "accent": "#FF0050"
+      },
+      "font": {
+        "family": "default",
+        "size": "medium"
+      },
+      "icons": "filled",
+      "background_style": "dark"
+    },
+
+    "night_blue": {
+      "name": "ليلي أزرق",
+      "colors": {
+        "background": "#0A1A2F",
+        "text": "#EAF1FF",
+        "primary": "#4DA3FF",
+        "secondary": "#112B45",
+        "accent": "#4DA3FF"
+      },
+      "font": {
+        "family": "default",
+        "size": "medium"
+      },
+      "icons": "outline",
+      "background_style": "gradient"
+    },
+
+    "gold": {
+      "name": "ذهبي",
+      "colors": {
+        "background": "#FFF8E1",
+        "text": "#4E342E",
+        "primary": "#D4AF37",
+        "secondary": "#F5E6B0",
+        "accent": "#C9A227"
+      },
+      "font": {
+        "family": "serif",
+        "size": "medium"
+      },
+      "icons": "filled",
+      "background_style": "soft"
+    }
+  },
+
+  "user_profile_customization": {
+    "enabled": true,
+
+    "options": {
+      "dark_mode_toggle": true,
+
+      "color_picker": {
+        "enabled": true,
+        "editable": [
+          "background",
+          "text",
+          "accent"
+        ]
+      },
+
+      "font_options": {
+        "enabled": true,
+        "families": [
+          "default",
+          "serif",
+          "rounded"
+        ]
+      },
+
+      "font_sizes": [
+        "small",
+        "medium",
+        "large"
+      ],
+
+      "icon_styles": [
+        "outline",
+        "filled",
+        "minimal"
+      ],
+
+      "background_styles": [
+        "clean",
+        "gradient",
+        "dark",
+        "soft"
+      ]
+    }
+  }
+}
