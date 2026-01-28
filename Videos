@@ -1,0 +1,109 @@
+{
+  "app": {
+    "name": "TikTok Lite",
+    "version": "1.1",
+    "direction": "rtl",
+    "theme": {
+      "default_theme": "light"
+    }
+  },
+
+  "navigation_order": [
+    "home",
+    "search",
+    "create",
+    "messages",
+    "profile"
+  ],
+
+  "media": {
+    "images": [
+      "assets/images/splash.png",
+      "assets/images/profile_placeholder.png",
+      "assets/images/background.png"
+    ],
+    "icons": [
+      "assets/icons/app_icon.png",
+      "assets/icons/like.png",
+      "assets/icons/comment.png",
+      "assets/icons/share.png"
+    ],
+    "videos": [
+      "assets/videos/sample1.mp4",
+      "assets/videos/sample2.mp4"
+    ],
+    "sounds": [
+      "assets/sounds/like.mp3",
+      "assets/sounds/notify.mp3",
+      "assets/sounds/click.mp3",
+      "assets/sounds/music.mp3"
+    ]
+  },
+
+  "effects": {
+    "visual": [
+      "blur",
+      "fade",
+      "glitch",
+      "vignette",
+      "color_filter"
+    ],
+    "ai_features": {
+      "auto_caption": true,
+      "smart_suggestions": true,
+      "face_detection": true,
+      "object_detection": true
+    }
+  },
+
+  "emojis": {
+    "like": "❤️",
+    "comment": "💬",
+    "share": "🔁",
+    "follow": "➕",
+    "download": "⬇️"
+  },
+
+  "texts": {
+    "ar": {
+      "home": {
+        "for_you": "لك",
+        "following": "أتابعه",
+        "discover": "اكتشف",
+        "live": "مباشر"
+      },
+      "actions": {
+        "like": "إعجاب",
+        "comment": "تعليق",
+        "share": "مشاركة",
+        "follow": "متابعة"
+      }
+    },
+    "en": {
+      "home": {
+        "for_you": "For You",
+        "following": "Following",
+        "discover": "Discover",
+        "live": "Live"
+      },
+      "actions": {
+        "like": "Like",
+        "comment": "Comment",
+        "share": "Share",
+        "follow": "Follow"
+      }
+    }
+  },
+
+  "user_profile_customization": {
+    "enabled": true,
+    "options": {
+      "dark_mode_toggle": true,
+      "color_picker": true,
+      "font_options": true,
+      "font_sizes": ["small", "medium", "large"],
+      "icon_styles": ["outline", "filled", "minimal"],
+      "background_styles": ["clean", "gradient", "dark", "soft"]
+    }
+  }
+}
