@@ -1,0 +1,76 @@
+{
+  "app": {
+    "name": "TikTok Lite",
+    "version": "1.0",
+    "direction": "rtl",
+    "theme": {
+      "background": "#FFFFFF",
+      "text": "#000000",
+      "icons": "#000000"
+    }
+  },
+
+  "navigation_order": [
+    "home",
+    "search",
+    "create",
+    "messages",
+    "profile"
+  ],
+
+  "emojis": {
+    "like": "❤️",
+    "comment": "💬",
+    "share": "🔁",
+    "follow": "➕",
+    "download": "⬇️",
+    "search": "🔍",
+    "home": "🏠",
+    "profile": "👤",
+    "live": "🔴",
+    "music": "🎵"
+  },
+
+  "texts": {
+    "ar": {
+      "home": {
+        "for_you": "لك",
+        "following": "أتابعه",
+        "discover": "اكتشف",
+        "live": "مباشر"
+      },
+      "actions": {
+        "like": "إعجاب",
+        "comment": "تعليق",
+        "share": "مشاركة",
+        "follow": "متابعة"
+      },
+      "navigation": {
+        "home": "الرئيسية",
+        "search": "بحث",
+        "create": "إنشاء",
+        "messages": "الرسائل",
+        "profile": "الملف الشخصي"
+      },
+      "system": {
+        "loading": "جارٍ التحميل...",
+        "no_internet": "لا يوجد اتصال بالإنترنت",
+        "error": "حدث خطأ"
+      }
+    },
+
+    "en": {
+      "home": {
+        "for_you": "For You",
+        "following": "Following",
+        "discover": "Discover",
+        "live": "Live"
+      },
+      "actions": {
+        "like": "Like",
+        "comment": "Comment",
+        "share": "Share",
+        "follow": "Follow"
+      },
+      "navigation": {
+        "
